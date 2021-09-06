@@ -1,0 +1,155 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, main {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.nav:before,.nav:after,.row:before,.row:after,.container:after,.row:after{
+    clear:both;display:table;
+}
+
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:14px;
+    line-height:1.42857143;
+    color:#333;
+    background-color:#fff;
+}
+
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.row {
+    margin-right:-15px;
+    margin-left:-15px
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.green {
+	color: green;
+}
+
+.white {
+	color: white;
+}
+
+.orange {
+    color: orange;
+}
+
+.color999 {
+    color: #999;
+}
+
+.color666 {
+    color: #666;
+}
+
+.color333 {
+    color: #333;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.hidden {
+    display: none;
+}
+
+.clearfixed {
+	clear: both; 
+}
+
+.reset {
+	clear:both;
+}
+
+.nav10{
+    width:100%;
+    height:10px;
+}
+
+.nav20{
+    width: 100%;
+    height:20px;
+}
+
+.nav30{
+    width:100%;
+    height:30px;
+}
+
+.nav50{
+    width:100%;
+    height:50px;
+}
+
+.nav100{
+    width:100%;
+    height:100px;
+}
+
+.bold{
+    font-weight:bold;
+}

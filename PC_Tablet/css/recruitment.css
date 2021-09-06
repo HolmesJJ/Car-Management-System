@@ -1,0 +1,137 @@
+article.main-content {
+    width:90%;
+    margin: 0 auto;
+}
+
+.col {
+    width: 50%;
+    position:relative;
+    min-height:1px;
+    padding-right:15px;
+    padding-left:15px;
+}
+
+#shopenter_message .col .shopenter-intro-content{
+    border:1px dashed #989898;
+    padding:20px;
+    margin-bottom: 50px;
+}
+#shopenter_message .shopenter-title{
+    font-size: 20px;
+    padding:0px;
+    margin-bottom: 20px;
+}
+#shopenter_message .shopenter-title span{
+    color: #4eb233;
+    font-weight: bold;
+}
+#shopenter_message .col .shopenter-intro-content div{
+    color: #666;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/*--------------------forms--------------------*/
+.forms{
+    font-family: "微软雅黑";
+    margin-top: 10px;
+    margin-left: -20px;
+}
+.forms_title{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    color: #05974E;
+    border-bottom: 2px solid #FB3A00;
+}
+.forms_title > div{
+	background: none repeat scroll 0 0 #fff;
+    color: #fb3a00;
+    margin: 17px 30% 0;
+    position: absolute;
+    width: 350px;
+}
+.forms_content{
+    width: 100%;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.forms_left{
+    width:35%;
+    float: left;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.forms_right{
+    width: 60%;
+    float: right;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.forms_right select{
+    width: 150px;
+    
+}
+
+.forms_right input,.forms_right textarea,.forms_right select{
+    -moz-border-bottom-colors: none;
+    border-radius: 3px;
+    border-color: #9A9A9A #CDCDCD #CDCDCD #9A9A9A;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    font: 12px arial;
+    outline: medium none;
+    padding: 4px 7px;
+    vertical-align: top;
+}
+
+
+.forms_right input:focus,.forms_right textarea:focus,.forms_right select:focus{
+    box-shadow: 0 0 5px #FFB000;
+    border-color:#FFB000;
+}
+
+.reset{
+    clear: both;
+}
+.forms_right span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.input_br{
+    margin-bottom: 20px;
+}
+.forms_rl{
+    width: 100px;
+    text-align: right;
+    float: left;
+}
+.forms_rr{
+    width: auto;
+    float: left;
+}
+.forms_p{
+    margin-bottom: 10px;
+}
+.forms_sub{
+    text-align: center;
+    margin:20px 0 40px 0px;
+}
+.forms_sub input{
+    padding: 8px 40px;
+    font-size: 18px;
+    color: #fff;
+    background: #4eb233;
+    border:0px;
+    cursor: pointer;
+	border-radius: 5px;
+    width: 95%;
+}
+
+.mustinput {
+    color: red;
+}

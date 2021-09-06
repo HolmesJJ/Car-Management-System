@@ -1,0 +1,197 @@
+﻿#leftfuwumenu{
+	float:left;
+	width:105px;
+	height:100%;
+	font-size: 16px;
+	font-weight: normal;
+	margin-right:20px;
+    cursor:pointer;
+}
+#leftfuwumenu > div{
+	border-bottom: 1px solid #CCCCCC;
+	height: 99px;
+	line-height: 100px;
+	text-align: center;
+}
+#leftfuwumenu > #baoyangfuwut{
+	border-top-left-radius: 5px;
+}
+#baoyangdaohangt{
+    background-color: #4eb233;
+	border-bottom-left-radius: 5px;
+    color:white;
+}
+#weixiufuwut {
+    background-color: #4eb233;
+    color:white;
+}
+.rightfuwu{
+	float:left;
+	width:335px;
+	height:100%;
+	border: none;
+	display:none;
+	
+}
+.rightfuwu banner_box_text >span{
+	margin:5px;
+}
+.banner_box_title {
+	color: #FD9E72;
+	font-size: 12px;
+	height: 20px;
+	width: 92%;
+	padding-left: 20px;
+}
+.banner_box_title>a {
+	color: #FD9E72;
+	font-weight: bold;
+}
+.banner_box_content {
+	height: 150px;
+	overflow: hidden;
+	padding-left: 20px;
+	padding-top: 10px;
+	text-overflow: clip;
+	width: 93%;
+}
+.banner_box_content a{
+	padding-right: 10px;
+}
+.banner_box_text {
+	border-bottom: 1px dotted #D7D7D7;
+	float: left;
+	font-size: 12px;
+	padding: 5px 0;
+	width: 150px;
+	height:26px;
+	line-height:26px;
+}
+.banner_box_text > img{
+    display: block;
+    float: left;
+    margin-bottom: 7px;
+    margin-top: 3px;
+}
+.banner_box a {
+	color: #4B4B4B;
+	text-decoration: none;
+}
+.diy_maintenance_form105  label{
+	font-weight:bold;
+}
+.diy_maintenance_form105{
+	margin-left:40px;
+}
+#bydhsubmit{
+	background: none repeat scroll 0% 0% rgb(254, 84, 23);
+	color: rgb(255, 255, 255);
+	padding: 7px 20px;
+	border-radius: 5px;
+	width: 275px;
+}
+#leftfuwumenu img{
+	float: left;
+	margin: 35px -5px 0 10px;
+}
+.diy_maintenance_form105 input{
+	padding:4px 0px;
+}
+.cartype{
+	padding:4px 0px;
+}
+#topoption,#bottomoption{
+	width: 100%; 
+	height: 17px;
+	padding-left: 17px;
+}
+#topoption > div,#bottomoption > div{
+	float:left;
+}
+#topoption > div{
+	width: 82px;
+}
+#bottomoption > div{
+	width: 82px;
+}
+#prevoption{
+	float: left;
+	height: 15px;
+	width: 10px;
+	z-index: 2; 
+	position: absolute;
+}
+#lastoption{
+	float: right;
+	height: 15px;
+	width: 10px;
+}
+.diy_maintenance_form105 > div{
+	width:321px;
+	height:50px;
+}
+#onecar_buytime
+{
+	color: rgb(174, 174, 174);
+	font-size:12px;
+	padding: 5px;
+}
+.contentoption div{
+	float:left;
+	height:40px;
+	width:65px;
+	border-left:1px solid #CAC8C9;
+	text-align: center;
+	padding-top:5px;
+}
+.contentoption{
+    background: none repeat scroll 0 0 #EEEEEE;
+    float: left;
+    width: 265px;
+	height:28px;
+	border-radius: 3px;
+}
+.indexfindproduct{
+    height: 26px;
+    padding: 20px 0 15px 20px;
+    width: 336px;
+}
+.indexfindproduct input{
+    border: 1px solid #FD5517;
+    border-radius: 3px;
+    padding: 3px;
+}
+.indexfindproduct input:focus{
+	box-shadow: 0 0 5px #FFB000;
+	border-color:#FFB000;
+}
+.indexfindproduct .gl{
+	color: #FD5516;
+    margin: 0 20px 0 5px;
+}
+.indexfindproduct .button{
+    background: none repeat scroll 0 0 #FE5B20;
+    border-radius: 3px;
+    color: #FFFFFF;
+    padding: 4px 15px;
+}
+#movediv{
+	background: none repeat scroll 0 0 #FCEFCF;
+    border: 1px solid #F8C278;
+    border-radius: 3px;
+    height: 23px;
+    position: absolute;
+    width: 65px;
+	height: 28px;
+    line-height: 28px;
+    padding: 0;
+}
+#movediv > div{
+	padding:0;
+	height:28px;
+	float:left;
+	display:none;
+}
+#zhizheng,#rightimg,#leftimg,#showcarproduct{
+	cursor: pointer;
+}

@@ -1,0 +1,14 @@
+/* lhgdialog 弹框样式 */
+.font16Tag{ font-size:16px; line-height:30px; display:block; padding-top:10px; font-family:"微软雅黑"; text-align:center;}
+.icoOk{ background:url(../../../images/ico_ok.html) no-repeat; padding:0px 8px 0px 8px; position:relative; top:2px; right:7px;}
+.icoWarn{ background:url(../../../images/ico_warn.html) no-repeat; padding:0px 8px 0px 8px; position:relative; top:2px; right:7px;}
+.alertLoading{ font-size:14px; line-height:18px; display:block; padding:10px 0px; font-family:"微软雅黑"; text-align:center; }
+.alertLoading i{ background:url(../../../images/loading.html) no-repeat; padding:10px 16px 10px 16px; position:relative; top:3px; right:10px;}
+
+#ldg_lockmask{
+    background: none repeat scroll 0 0 #000000;
+    opacity: 0.5;                   /* Firefox, Safari(WebKit), Opera,chrome*/
+    filter: "alpha(opacity=50)"; /* IE 8 */
+    filter: alpha(opacity=50);    /* IE 4-7 */
+    zoom: 1;                        /* needed in IE up to version 7, or set width or height to trigger "hasLayout" */
+}
